@@ -8,8 +8,18 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg,#153677,#4e085f);
+    background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 27%, #ffffff 100%);
+
+
     padding: 10px;
+
+    /* From https://css.glass */
+/* background: rgba(255, 255, 255, 0.06);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.8px);
+-webkit-backdrop-filter: blur(4.8px); */
+border:px solid red;
 }
 .todo-app{
     width: 100%;
@@ -21,7 +31,7 @@
 }
 
 .todo-app h2{ 
-color: #002765;
+color: hsl(217, 75%, 57%);
 display: flex;
 align-items: center;
 margin-bottom: 20px;
@@ -51,10 +61,9 @@ input{
 
 }
 button{
-    border: none;
-    outline: none;
+    border: 2px solid;
     padding: 16px 50px;
-    background: #ff5945;
+    background: hsl(217, 75%, 57%);
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -107,6 +116,7 @@ ul li span {
     border-radius: 50%;
 }
 ul li span:hover{
-    background: #edeef0;
+    background:hsl(217, 75%, 57%);
+    color: white;
 
 }
